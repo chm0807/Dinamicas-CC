@@ -9,8 +9,8 @@ app.use(bodyParser.json());
 // Token para verificación de Meta
 const VERIFY_TOKEN = 'botpress_dinamicas';
 
-// Tu token de acceso de WhatsApp Business
-const WHATSAPP_TOKEN = 'EAA6eMmfefssBPgCywDTUyVp4ZAEozNGgPLfx4foceraZCWdujIzzCM6QhY2jU41fQ2SSLXZAftH2c0u3xUENq6gzWEZCZAH6NqE1ZBBn0vYUZAAL8w2eJK1ZCeec64fRQIm4o5QKjfXC1ZAuwGTO8fQUx822IDTCI4oi7K28aqvHlXWcZBZCFUMMsl2VKidgfgucMvSC2JAKwGFZA95lUftjsaz8kSW5lWZA24sQNej5T6UzXlgZDZD';
+// Tu token de acceso de WhatsApp Business desde variable de entorno
+const WHATSAPP_TOKEN = process.env.WHATSAPP_TOKEN;
 
 // ------------------
 // Endpoint para verificación de webhook
