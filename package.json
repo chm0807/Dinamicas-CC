@@ -1,7 +1,6 @@
 {
-  "name": "mi-bot-railway",
+  "name": "mi-bot-dinamicas",
   "version": "1.0.0",
-  "description": "Bot de WhatsApp con lista interactiva",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -9,6 +8,8 @@
   "dependencies": {
     "express": "^4.18.2",
     "body-parser": "^1.20.2",
-    "axios": "^1.6.0"
+    "axios": "^1.6.3",
+    "googleapis": "^121.0.0",
+    "dotenv": "^16.3.1"
   }
 }
